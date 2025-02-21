@@ -48,6 +48,17 @@ INSTALLED_APPS = [
     'elearning',
 ]
 
+JAZZMIN_SETTINGS = {
+    "site_title": "Elearning Admin",
+    "site_header": "Elearning",
+    "site_brand": "Elearning",
+    "copyright": "Elearning",
+
+    "topmenu_links": [
+        {"name": "Support", "url": "https://github.com/bibekbibekbibek/Elearning_project", "new_window": True},
+    ]
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
